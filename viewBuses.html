@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Phantom|Home</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="./scripts/fabric.js"></script>
+</head>
+
+<body>
+
+    <!-- Site navigation menu -->
+    <ul class="navbar">
+        <li><a href="index.html">Home page</a>
+        <li><a href="viewBuses.html">View Buses</a>
+    </ul>
+
+    <!-- Main content -->
+    <h1>Phantom</h1>
+
+    <p>List of Buses</p>
+    <div id="bus-list">
+
+    </div>
+
+    <!-- Sign and date the page, it's only polite! -->
+    <address><br></address>
+    <div id="bus-name"></div>
+    <div class="canvas-space">
+        <canvas id="canvas" width="1214" height="200" class="hidden"></canvas>
+    </div>
+
+    <script src="./scripts/socket.io.js"></script>
+    <script src="./scripts/viewBus.js"></script>
+
+
+</body>
+
+</html>

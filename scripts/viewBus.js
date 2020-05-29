@@ -133,7 +133,7 @@ const updateCanvas = function (currentCoverage, miles, originPlace, destinationP
     }
 
     if (currentPlaceOnCanvas) {
-        fabric.Image.fromURL('http://127.0.0.1:5500/assets/bus-left-min.png', function (img) {
+        fabric.Image.fromURL('https://bdushimi.github.io/phantom-demo-frontend/assets/bus-left-min.png', function (img) {
 
             if (canvas.getObjects()[5]) {
                 canvas.getObjects()[5].set({
